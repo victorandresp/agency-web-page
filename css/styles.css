@@ -1,0 +1,1010 @@
+/*********GLOBAL CONFIGURATION*********/
+
+:root {
+    /*Global Variables */
+    --primary-color: #01c789;
+    --secondary-color: #072f54;
+    --white-color: #fff;
+    --dark-color: #000;
+}
+
+html,
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'PT Serif Caption', serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+p {
+    margin: 0;
+    /*In html5 the browsers add some default properties to elements*/
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+/*generales*/
+.container-fluid {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 80%;
+    height: auto;
+}
+.divider{
+    margin: 20px auto;
+    width: 30px;
+    border-bottom: #01c789 solid 2px;
+}
+/*generales*/
+.principal-banner {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../assets/bank/5952-min.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+}
+
+.layer-blue {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--secondary-color);
+    opacity: 0.5;
+}
+
+
+/*Navigation*/
+
+.navigation-bar {
+    position: absolute;
+    top: 30px;
+}
+
+.logotype img {
+    vertical-align: middle;
+}
+
+.logotype p {
+    font-family: 'Montserrat';
+    display: inline;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 20px;
+    color: var(--white-color);
+    margin-left: 20px;
+}
+
+.navigation-bar,
+.logotype,
+.navigation-bar ul li,
+.navigation-bar ul {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: var(--white-color);
+    color: var(--white-color);
+    width: 80%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.get-quote {
+    position: relative;
+    align-self: center;
+    text-align: center;
+}
+
+.get-quote button {
+    font-weight: 700;
+    color: var(--white-color);
+    padding: 10px;
+    width: 120px;
+    background-color: var(--primary-color);
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.get-quote p {
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.get-quote p>span {
+    font-size: 10px;
+    display: block;
+}
+
+
+/*Navigation*/
+
+
+/*banner title and actions*/
+
+.principal-title-container {
+    text-align: center;
+    color: var(--white-color);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.principal-title-container h1:nth-child(1) {
+    font-size: 3.5rem;
+    font-weight: 100;
+}
+
+.principal-title-container h1:nth-child(2) {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.principal-title-container h4 {
+    font-style: italic;
+}
+
+ .container-button-learn .button-learn {
+    margin-top: 50px;
+    background-color: transparent;
+    border: #01c789 solid 2px;
+    padding: 15px;
+    width: 220px;
+    height: 20px;
+    margin: 50px auto 0px auto;
+    transform: skew(-20deg, 0deg);
+    cursor: pointer;
+}
+
+.container-button-learn {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.container-button-learn p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Montserrat';
+    letter-spacing: 1.7px;
+    font-weight: 600;
+    font-size: 15px;
+    color: var(--white-color);
+    cursor: pointer;
+}
+
+.button-text-learn::after {
+    content: '→';
+    margin-left: 10px;
+}
+
+
+/*banner title and actions*/
+
+
+/*What we do*/
+
+.what-we-do {
+    width: 100%;
+    height: 80vh;
+    background-image: url(../assets/mascara-banner-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+/*HEXAGONO*/
+
+.Hexp {
+    position: absolute;
+    width: 100%;
+    top: -8%;
+}
+
+.hexagon {
+    position: absolute;
+    width: 80px;
+    height: 46.19px;
+    background-color: var(--secondary-color);
+    margin: 23.09px 0;
+    /* top :272px; */
+    /* top:-50% !important; */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.hexagon:before,
+.hexagon:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+}
+
+.hexagon:before {
+    bottom: 100%;
+    border-bottom: 23.09px solid var(--secondary-color);
+}
+
+.hexagon:after {
+    top: 100%;
+    width: 0;
+    border-top: 23.09px solid var(--secondary-color);
+}
+
+.bussiness-icon {
+    position: absolute;
+    left: 50.1%;
+    /* z-index: 100000; */
+    /* top: 10%; */
+    bottom: -60px;
+    transform: translateX(-50%);
+}
+
+.what-we-do .subtitle-what-we-do {
+    /* text-align: center; */
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    color: var(--white-color);
+    top: 120px;
+}
+
+.what-we-do .subtitle-what-we-do h2 {
+    font-family: 'PT Serif Caption';
+    font-size: 40px;
+    /* margin-top: 80px; */
+}
+
+.what-we-do .subtitle-what-we-do span {
+    color: var(--primary-color);
+}
+
+.what-we-do .subtitle-what-we-do p {
+    padding:0 20px;
+}
+
+.container-services{
+    width: 70%; 
+    position: absolute;
+    left:50%;
+    bottom: 80px;
+    transform: translateX(-50%);
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(auto, auto);
+    grid-template-areas:"marketing   website    logodesign";
+}
+@media(max-width:600px){
+    .container-services{
+        grid-template-areas:"marketing     marketing      marketing"
+                            "website       website        website"
+                            "logodesign    logodesign     logodesign";
+    }
+    .what-we-do{
+        height: 1100px;
+    }
+    .navigation-bar{
+        display: none;
+    }
+}
+.container-services .services{
+    text-align: center;
+    padding: 40px 10px;
+    background-color:#0000004d;
+    color: var(--white-color);
+}
+
+.container-services .services.marketing{
+
+    grid-area: marketing;
+}
+.container-services .services.website{
+    grid-area: website;
+}
+.container-services .services.logodesign{
+
+    grid-area: logodesign;
+}
+.services p {
+    font-family: 'Montserrat';
+    color: var(--primary-color);
+    font-size: 12px;
+}
+.services h4 {
+    margin: 10px 0 10px 0;
+    /* color: var(--primary-color); */
+}
+.services .circle{
+    display: block;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color:#0000003b;
+    margin: auto;
+    opacity: 1;
+    border-radius: 100%;
+}
+.circle img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.services:hover{
+    background-color:#0b0f0fee;
+    cursor: pointer;
+}
+.services:hover .circle{
+    background-color: var(--primary-color);
+}
+.container-our-portfolio{
+    position: relative;
+    width: 100vw;
+    height: auto;
+    background-color: #031424;
+}
+.container-our-portfolio .subtitle-our-portfolio{
+    color: var(--white-color);
+    width: 100%;
+    text-align: center;
+    padding-top:80px;
+    
+}
+.Hexp2 {
+    position: absolute;
+    width: 100%;
+    top: -4%;
+}
+.container-our-portfolio .subtitle-our-portfolio h2 {
+    font-family: 'PT Serif Caption';
+    font-size: 40px;
+}
+
+.container-our-portfolio .subtitle-our-portfolio span {
+    color: var(--primary-color);
+}
+.container-our-portfolio .subtitle-our-portfolio p {
+    padding: 0 20px;
+}
+
+.mockup-image-container{
+    width: 100%;
+    text-align: center;
+}
+.mockup-image-container img{
+    margin-top: 60px;
+    margin-bottom: 100px;
+    width: 80%;
+}
+.mockup{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.branding-project-container{
+    background-color: #031424d9;
+    max-width: 800px;
+    text-align: start;
+    padding: 20px;
+    position: absolute;
+    bottom:55px;
+    left:50%;
+    transform:translateX(-50%)
+}
+@media(max-width:600px){
+    .branding-project-container{
+        position: relative;
+    }
+}
+.f-row{
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+.f-column, .s-column{
+    width: 40%;
+}
+.branding-project-container h3{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 35px;
+    color: var(--primary-color);
+    padding: 20px 0;
+}
+.f-column p, .s-column p{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7em;
+}
+.f-column p>a{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+.f-column p:nth-child(2){
+    margin-top: 20px;
+}
+.column-text{
+    color: #ffffff67;
+}
+.column-text span{
+    color: var(--white-color);
+}
+.s-column .column-text:nth-child(3) span{
+    color: var(--primary-color) !important;
+}
+.button-text-view-all::after {
+    content: url('../assets/icons/eye-icon.gif');
+    width:10px;
+    margin-left: 10px;
+}
+.button-view-all-container{
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+/*What we do*/
+/*Our clients*/
+.our-clients-container{
+    position: relative;
+    width: 100vw;
+    height: auto;
+    background-color:var(--white-color);
+}
+.Hexp3 {
+    position: absolute;
+    width: 100%;
+    top: -44%;
+}
+.subtitle-our-clients{
+    width: 100%;
+    text-align: center;
+    /* position: absolute; */
+    color: var(--secondary-color);
+    top: 120px;
+}
+.subtitle-our-clients p{
+    margin: 30px 0;
+    padding:0 20px;
+}
+.our-clients-container h2{
+    font-family: 'PT Serif Caption';
+    font-size: 40px;
+    margin-top: 50px;
+}
+.our-clients-container span{
+    color: var(--primary-color);
+}
+.brands-container{
+    width: 70%;
+    margin: 25px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+}
+.brands-container img {
+    margin:auto;
+    /* margin-right: 60px; */
+    margin-bottom: 35px;
+}
+/*Our clients*/
+/*what clients say*/
+.what-client-say-container{
+    width: 100%;
+    height: 60vh;
+    background-image: url(../assets/mascara-banner-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    opacity: .95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.what-client-image-background{
+    width: 100%;
+    height:60vh;
+    background-image: url(../assets/bank/14114-min.jpg);
+    background-repeat: no-repeat;
+    background-position: top top;
+    background-size: cover;
+    position: relative;
+}
+.what-clients-say-subtitle{
+    text-align: center;
+    color: var(--white-color);
+}
+.what-clients-say-subtitle h3{
+    font-size: 30px;
+}
+.what-clients-say-subtitle span, .what-clients-say-subtitle h5{
+    color: var(--primary-color);
+}
+.what-clients-say-subtitle p{
+    font-size: 25px;
+    padding:0 10px;
+    font-style: italic;
+}
+.what-clients-say-subtitle h5{
+    margin:30px;
+    letter-spacing: 1.7px;
+}
+
+.bullet{
+  display: inline-flex;
+  border:1.2px solid white;
+  border-radius:50%;
+  background:rgba(0,0,0,0);
+  color:white;
+  width:10px;
+  height:10px;
+  text-align:center;
+}
+.bullet.active{
+    background:var(--primary-color);
+    border:1.2px solid var(--primary-color);
+}
+/*what clients say*/
+/*Enquire About Services*/
+.equire-about-service-image-background{
+    width: 100%;
+    height: 60vh;
+    background-image: url(../assets/bank/image-mates.jpg);
+    background-color: #01c78849;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.enquire-about-services-layer{
+    width: 100%;
+    height: 60vh;
+    /* background-image: url(../assets/mascara-banner-3.jpg); */
+    background-color: #01c78849;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.what-clients-say-subtitle img{
+    margin-top: 30px;
+}
+/*Enquire About Services*/
+/*The team*/
+.the-team-container{
+    width: 100%;
+    height: auto;
+    background-image: url(../assets/mascara-banner-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.the-team-subtitle{
+    text-align: center;
+    color: var(--white-color);
+    padding-top: 80px;
+}
+.the-team-subtitle h2{
+    padding-top:80px;
+    font-size: 40px;
+}
+.the-team-subtitle span{
+    color: var(--primary-color);
+}
+.the-team-subtitle{
+    padding:0 20px;
+}
+
+.the-team-list{
+    color: var(--white-color);
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.coworker{
+    margin: 20px;
+    opacity: .2;
+}
+@media(max-width:600px){
+    .coworker{
+        opacity:1 !important;
+    }
+}
+.coworker:hover{
+    opacity: 1 !important;
+    cursor: pointer;
+}
+.circle{
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    background-color: #01c789;
+    margin-bottom: 30px;
+}
+.john-image{
+    background-image: url(../assets/bank/2642890-min.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.waqas-image{
+    background-image: url(../assets/bank/OHG6MQ0-min.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.cristine-image{
+    background-image: url(../assets/bank/6547-min.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.jenny-image{
+    background-image: url(../assets/bank/6654-min.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+.coworker h3, .coworker h4{
+    font-size: 15px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+.coworker h3{
+    color: var(--primary-color);
+}
+.social-media{
+    display: inline-flex;
+    justify-content: center;
+}
+.social-media i{
+    margin:20px 10px 0 10px;
+}
+.recent-blog-posts-container{
+    width: 100%;
+    height: auto;
+    background-image: url(../assets/mascara-banner-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.recent-blog-posts-subtitle{
+    text-align: center;
+    color: var(--white-color);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.recent-blog-posts-subtitle h2{
+    font-size: 40px;
+}
+.recent-blog-posts-subtitle span{
+    color: var(--primary-color)
+}
+.post-list{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: left;
+}
+.post-list .post-card{
+    margin: 0 20px;
+    max-width: 300px;
+    margin-bottom:30px;
+}
+.post-card h3, .post-card small{
+
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.post-card h3{
+    margin-top: 15px;
+    font-size: 15px;
+    color: var(--primary-color);
+}
+.post-card small{
+    color:#223547;
+}
+.post-card .image-post {
+    width:300px;
+    height: 200px;
+    opacity: 1;
+    backface-visibility: hidden;
+}
+.post-card p{
+    margin-top: 15px;
+}
+.post-card-image{
+    width:100%;
+    height: 200px;
+    position: relative;
+}
+.post-card-image{
+    background-color: var(--primary-color);
+}
+.layer-post-image{
+    width:300px;
+    height: 200px;
+    position: absolute;
+    opacity: 0;
+    top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.layer-post-image i{
+    font-size: 35px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.post-card-image:hover .image-post{
+    opacity: .4;
+}
+.post-card-image:hover .layer-post-image{
+    opacity: 1;
+}
+
+/*The team*/
+/*Contact*/
+.contact-say-container{
+    width: 100%;
+    height: auto;
+    background-color:rgba(15, 201, 139, 0.904);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    opacity: .95;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* align-items: center; */
+}
+.contact-image-background{
+    width: 100%;
+    height:auto;
+    background-image: url(../assets/bank/OT1C720-min.jpg);
+    background-repeat: no-repeat;
+    background-position: top top;
+    background-size: cover;
+    position: relative;
+}
+.contact-subtitle h1{
+    margin-top: 80px;
+    color: var(--white-color);
+    text-align: center;
+}
+.contact-subtitle p{
+    color: var(--white-color);
+    text-align: center;
+}
+.contact-subtitle .divider{ 
+    border-bottom:var(--white-color) solid 2px;
+}
+.contact-subtitle p{
+    padding: 20px;
+}
+
+/*Contact*/
+
+/*Material inputs*/
+    .inputs-contact{
+        width: 80%; 
+        position: relative;
+        padding-top:20px;
+        /* left:50%; */
+        bottom:0;
+        /* transform: translateX(-50%); */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(auto, auto);
+        grid-template-areas:"name       email"
+                            "message    message"
+                            "contactus  contactus";
+    }
+    
+    .group{
+        width:100%;
+    }
+    .name{
+        grid-area:name;
+
+    }
+    .email{
+        grid-area:email;   
+    }
+    .message{
+        grid-area:message;   
+    }
+    .button-contact-us{
+        grid-area:contactus;   
+    }
+    .group{ 
+    position:relative; 
+    margin-bottom:45px; 
+  }
+  input, textarea{
+    font-size:18px;
+    padding:10px 0px 10px 0px;
+    display:block;
+    width:90%;
+    background: transparent;
+    border:none;
+    border-bottom:1px solid var(--white-color);
+  }
+  input:focus, textarea:focus{ outline:none; }
+  
+  /* LABEL ======================================= */
+  label 				 {
+    color:var(--white-color); 
+    font-size:18px;
+    font-weight:normal;
+    position:absolute;
+    pointer-events:none;
+    left:5px;
+    top:10px;
+    transition:0.2s ease all; 
+    -moz-transition:0.2s ease all; 
+    -webkit-transition:0.2s ease all;
+  }
+  
+  /* active state */
+  input:focus ~ label, input:valid ~ label, textarea:focus ~ label, textarea:valid ~ label {
+    top:-20px;
+    font-size:14px;
+    color:var(--white-color);
+  }
+  textarea{
+        resize: none;
+        color:var(--white-color);
+        overflow: hidden;
+        width:95% !important;
+  }
+  
+  /* BOTTOM BARS ================================= */
+  .bar 	{ position:relative; display:block; width:90%; }
+  .message .bar 	{ position:relative; display:block; width:95%; }
+  .bar:before, .bar:after 	{
+    content:'';
+    height:2px; 
+    width:0;
+    bottom:1px; 
+    position:absolute;
+    background:var(--white-color); 
+    transition:0.2s ease all; 
+    -moz-transition:0.2s ease all; 
+    -webkit-transition:0.2s ease all;
+  }
+  .bar:before {
+    left:50%;
+  }
+  .bar:after {
+    right:50%; 
+  }
+  
+  /* active state */
+  input:focus ~ .bar:before, input:focus ~ .bar:after, textarea:focus ~ .bar:before, textarea:focus ~ .bar:after {
+    width:50%;
+  }
+  /* HIGHLIGHTER ================================== */
+  .highlight {
+    position:absolute;
+    height:60%; 
+    width:90%; 
+    top:25%; 
+    left:0;
+    pointer-events:none;
+    opacity:0.5;
+  }
+  
+  /* active state */
+  input:focus ~ .highlight, textarea:focus ~ .highlight {
+    -webkit-animation:inputHighlighter 0.3s ease;
+    -moz-animation:inputHighlighter 0.3s ease;
+    animation:inputHighlighter 0.3s ease;
+  }
+  
+  /* ANIMATIONS MATERIAL DESING ================ */
+  @-webkit-keyframes inputHighlighter {
+      from { background:var(--white-color); }
+    to 	{ width:0; background:transparent; }
+  }
+  @-moz-keyframes inputHighlighter {
+      from { background:var(--white-color); }
+    to 	{ width:0; background:transparent; }
+  }
+  @keyframes inputHighlighter {
+      from { background:var(--white-color); }
+    to 	{ width:0; background:transparent; }
+  }
+
+  .button-contact-us{
+      display:inline-flex;
+      align-items: center;
+      cursor:pointer;
+    }
+    
+    .button-contact-us button{
+        cursor:pointer;
+        width:160px;
+        height: 50px;
+        background-color: #11efa9;
+        color:var(--white-color);
+        font-weight: 700;
+        letter-spacing: 1.0px;
+        border: none;
+        padding:0;
+    }
+    .button-contact-us button{
+        outline: none;
+        box-shadow: none;
+    }
+
+  .button-contact-us .phone-contact-us{
+      width:60px;
+      height: 50px;
+      padding:0;
+      color:var(--white-color);
+      background-color: #1bd69b;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .links-contact-us{
+      width:80%;
+      display:inline-flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin:40px 0 40px 0;
+  }
+  @media(max-width:600px){
+    .links-contact-us div{
+      width:100%;
+    }
+  }
+  .links-contact-us div{
+      padding:10px 0;
+      text-align:center;
+    }
+    .links-contact-us a{
+        color: var(--white-color);
+        font-weight: 700;
+        padding:10px 0;
+      text-decoration: none;
+      
+  }
+  .links-contact-us i {
+      color:#11efa9;
+      font-size: 24px;
+      margin-right:10px;
+  }
+/*Material inputs*/
+
